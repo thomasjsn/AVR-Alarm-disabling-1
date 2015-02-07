@@ -1,6 +1,6 @@
 Report       : ADU1
 Date         : 02-07-2015
-Time         : 23:22:03
+Time         : 23:26:57
 
 Compiler     : BASCOM-AVR LIBRARY V 2.0.7.8
 Processor    : TINY2313
@@ -8,9 +8,9 @@ SRAM         : 80 hex
 EEPROM       : 80 hex
 ROMSIZE      : 800 hex
 
-ROMIMAGE     : 460 hex  -> Will fit into ROM
-ROMIMAGE     :  1120 dec
-FLASH USED   :  54  %
+ROMIMAGE     : 586 hex  -> Will fit into ROM
+ROMIMAGE     :  1414 dec
+FLASH USED   :  69  %
 BAUD         : 9600 Baud
 XTAL         : 8000000 Hz
 BAUD error   : 0.16%
@@ -21,7 +21,7 @@ S-Stacksize  : 10 hex
 S-Stackstart : B8 hex
 Framesize    : 20 hex
 Framestart   : 88 hex
-Space left   :  25  dec
+Space left   :  21  dec
 
 LCD DB7      : PORTB.7
 LCD DB6      : PORTB.6
@@ -97,6 +97,8 @@ RESET_AKTIV1                     Bit [7]           0069          105
 RESET_AKTIV2                     Bit [6]           0069          105 
 LED1                             Integer           006A          106 
 LED2                             Integer           006C          108 
+SERVICE_EXIT                     Word              006E          110 
+SERVICE_ENTER                    Integer           0070          112 
 
 --------------------------------------------------------------------------------
 Constant                         Value
